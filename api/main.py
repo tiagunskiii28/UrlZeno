@@ -7,5 +7,5 @@ app = FastAPI()
 class urls(BaseModel):
     longurl: str
     shorturl: str
-    alias: bool
+    alias: str
 
